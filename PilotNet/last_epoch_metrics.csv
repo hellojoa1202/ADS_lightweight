@@ -1,0 +1,2 @@
+model,last_epoch,accuracy,f1_macro,train_time_sec,model_size
+LaneNet,30,0.0,0.0,858.183913,3098984.0
