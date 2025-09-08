@@ -1,0 +1,31 @@
+{
+  "pruning_method": "P60-U-sched",
+  "target_sparsity": 0.6,
+  "original_model": {
+    "size_mb": 0.8512382507324219,
+    "parameters": 222696,
+    "fps": 223.96293826194076,
+    "inference_time_ms": 4.465024471282959,
+    "f1_score": 0.5
+  },
+  "pruned_model": {
+    "size_mb": 0.8512382507324219,
+    "parameters": 222696,
+    "fps": 258.60228014696224,
+    "inference_time_ms": 3.8669419288635254,
+    "training_time_per_epoch": 100.0,
+    "f1_score": 0.5
+  },
+  "improvements": {
+    "size_reduction_percent": 0.0,
+    "fps_improvement_percent": 15.466550918575761,
+    "parameter_reduction_percent": 0.0,
+    "f1_score_change_percent": 0.0,
+    "tflite_size_reduction_percent": 50.0
+  },
+  "tflite_model": {
+    "model_size_mb": 0.42561912536621094,
+    "fps": 382.17380449500035,
+    "inference_time_ms": 2.6166105270385747
+  }
+}
