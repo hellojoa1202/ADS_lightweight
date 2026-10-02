@@ -1,9 +1,9 @@
-<p><sub>ADS_lightweight</sub></p>
+<h3><strong>ADS_lightweight</strong></h3>
 
 <p><sub>분야: 자율주행 · 차선 인식 · 객체 인식 · 모델 경량화</sub></p>
 <p><sub>기간: 2025 한이음 ICT 멘토링</sub></p>
 
-<p><sub>구조</sub></p>
+<h4><strong>구조</strong></h4>
 
 <pre><code>ADS_lightweight/
 ├── PilotNet/           # PilotNet 모델·평가 지표
