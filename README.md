@@ -6,16 +6,15 @@
 <p><sub>구조</sub></p>
 
 <pre><code>ADS_lightweight/
-├── PilotNet/          # PilotNet 모델·평가 지표
-├── YOLO/              # 객체 인식 모델
-├── efficentDet-lite0/ # pruning·quantization
-├── UFLD               # 차선 인식 모델
-├── src/               # 차선 인식 실험 코드
-├── data/              # 차선·객체 인식 데이터
-├── trafficlight/      # 신호등 인식
-├── reference/         # 참고 코드
-├── q-dr8              # 양자화 결과
-└── q-fp16             # 양자화 결과</code></pre>
+├── PilotNet/           # PilotNet 모델·평가 지표
+├── YOLO/               # 객체 인식 모델
+├── efficientDet-lite0/ # pruning·quantization
+├── src/                # 차선 인식 실험 코드
+├── data/               # 차선·객체 인식 데이터
+├── trafficlight/       # 신호등 인식
+├── reference/          # 참고 코드
+└── results/
+    └── quantization/   # q-dr8 · q-fp16</code></pre>
 
 <p><sub>모델: PilotNet · YOLOv5 · EfficientDet-Lite0 · UFLD</sub></p>
 <p><sub>실험: pruning · quantization · 정확도 비교 · 추론 시간 비교</sub></p>
